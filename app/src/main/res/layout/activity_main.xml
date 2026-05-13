@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#121212">
+
+    <TextView
+        android:id="@+id/tvDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="bottom|end"
+        android:text="0"
+        android:textColor="#FFFFFF"
+        android:textSize="64sp"
+        android:padding="16dp" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="4"
+        android:rowCount="5">
+
+        <!-- Simple set of buttons for demo -->
+        <Button style="@style/Widget.MaterialComponents.Button.TextButton" android:text="7" android:textColor="#FFF" />
+        <Button style="@style/Widget.MaterialComponents.Button.TextButton" android:text="8" android:textColor="#FFF" />
+        <Button style="@style/Widget.MaterialComponents.Button.TextButton" android:text="9" android:textColor="#FFF" />
+        <Button style="@style/Widget.MaterialComponents.Button.TextButton" android:text="/" android:textColor="#BB86FC" />
+
+        <Button style="@style/Widget.MaterialComponents.Button.TextButton" android:text="4" android:textColor="#FFF" />
+        <Button style="@style/Widget.MaterialComponents.Button.TextButton" android:text="5" android:textColor="#FFF" />
+        <Button style="@style/Widget.MaterialComponents.Button.TextButton" android:text="6" android:textColor="#FFF" />
+        <Button style="@style/Widget.MaterialComponents.Button.TextButton" android:text="*" android:textColor="#BB86FC" />
+
+        <Button style="@style/Widget.MaterialComponents.Button.TextButton" android:text="1" android:textColor="#FFF" />
+        <Button style="@style/Widget.MaterialComponents.Button.TextButton" android:text="2" android:textColor="#FFF" />
+        <Button style="@style/Widget.MaterialComponents.Button.TextButton" android:text="3" android:textColor="#FFF" />
+        <Button style="@style/Widget.MaterialComponents.Button.TextButton" android:text="-" android:textColor="#BB86FC" />
+
+        <Button style="@style/Widget.MaterialComponents.Button.TextButton" android:text="C" android:textColor="#CF6679" />
+        <Button style="@style/Widget.MaterialComponents.Button.TextButton" android:text="0" android:textColor="#FFF" />
+        <Button style="@style/Widget.MaterialComponents.Button.TextButton" android:text="=" android:textColor="#03DAC5" />
+        <Button style="@style/Widget.MaterialComponents.Button.TextButton" android:text="+" android:textColor="#BB86FC" />
+
+    </GridLayout>
+
+</LinearLayout>
